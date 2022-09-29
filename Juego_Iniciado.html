@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,10 +17,18 @@
     <section class="logo-alura">
         <img src="assets/VectorLogo.png" alt="logo de alura">
     </section>
-    <main>
-        <section class="main-buttons-section">
-            <a id="play" href="Juego_Iniciado.html" class="main-buttons-item"  >Iniciar juego</a>
-            <button id="nuevasPalabras" class="main-buttons-item">Agregar una nueva palabra</button>
+    <main class="main">
+        <section class="main-game-section">
+            <canvas width="400" height="400" id="juego"></canvas>
+            <section class="game-container-items">
+                <p>git pull origin main --allow-unrelated-histories</p>   
+                <section class="game-btn-items">
+                    <a href="#" id="play-again">Nuevo juego</a>
+                    <a href="index.html">Desistir</a>
+                </section>
+                
+            </section>
+            
         </section>
     </main>
 
