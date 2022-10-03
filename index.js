@@ -1,7 +1,31 @@
-let saltador = document.getElementById("aviso");
+// let saltador = document.getElementById("aviso");
 
-function avisador(){
-    prompt("esto anda?")
+let palabrasDelJuego=["G I  T ","allow","harrypotter"]
+
+var rodrigo = "  R O D RIGO";
+rodrigo = rodrigo.trim();
+console.log(rodrigo)
+
+var orig = '   foo  ';
+console.log(orig.trim()); 
+
+
+function comprobar(inputPalabra){
+    let  palabraLimpia = [];
+    
+    inputPalabra.forEach(element => {
+        palabraLimpia.push(element.toLowerCase())
+        palabraLimpia.push(element.trim())
+    });
+    
+    console.log(palabraLimpia)
 }
+comprobar(palabrasDelJuego)
 
-saltador.onclick = avisador;
+// function avisador(){
+//     prompt("esto anda?")
+// }
+
+// saltador.onclick = avisador;
+
+

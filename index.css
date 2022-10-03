@@ -6,7 +6,6 @@
 }
 
 body{
-    
     background-color: var(--main-backg-color);
     font-family: 'Roboto Mono', monospace;
     height: 100%;
@@ -25,7 +24,7 @@ body{
     max-height: 100%;
 }
 
-.main{
+main{
     border: 1px solid red;
     width: 99%;
     height: 99vh;
@@ -98,8 +97,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     border: solid red 1px;
-    width: 60%;
-    
+    width: 77%;
     align-items: center;
 }
 .game-btn-items a{
@@ -107,10 +105,17 @@ body{
     height: 37px;
     line-height: 37px;
     width: 200px;
-    border-radius: 8px;
+    border-radius: 10px;
     text-decoration: none;
 }
 #play-again{
     color: var(--main-backg-color);
     background-color: var(--paleta-second-color);
+    font-size: bolder;
+    border: slateblue solid 1px;
+    font-weight: bold;
+}
+#give-up{
+    color: var(--paleta-second-color);
+    border: 1px solid var(--paleta-second-color);
 }
